@@ -13,6 +13,8 @@ The core idea is simple:
 
 The repository is organized as an end-to-end experimental pipeline, not as an agent that improvises recommendations from scratch.
 
+![Grounded conversational recommendation interface](images/recommendation-chat-hero.png)
+
 ## Results Summary
 
 The current results show that the system already behaves like a coherent conversational recommender rather than a disconnected collection of components. Across a set of curated product-search scenarios, the pipeline consistently retrieves plausible candidates, reduces them to a small final shortlist, and attaches supporting evidence to the response. It also handles ambiguity in a controlled way: when the request is underspecified, the system can surface clarification needs instead of forcing an overconfident recommendation.
